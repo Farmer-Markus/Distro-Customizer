@@ -41,3 +41,6 @@ It should start compressing your customized linux filesystem. This can take seve
 After finishing you can put your custom iso onto an USB device or run it in a virtual machine. <br />
 
 If you have any problems you can open an [issue](https://github.com/Farmer-Markus/Distro-Customizer/issues) or an [request](https://github.com/Farmer-Markus/Distro-Customizer/pulls).
+
+# Based on
+https://dev.to/otomato_io/how-to-create-custom-debian-based-iso-4g37
