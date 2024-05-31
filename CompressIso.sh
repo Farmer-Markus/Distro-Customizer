@@ -1,4 +1,5 @@
 #!/bin/bash
+#https://github.com/Farmer-Markus/Distro-Customizer
 
 echo "Enter name of your distro:"
 read name

@@ -1,4 +1,5 @@
 #!/bin/bash
+#https://github.com/Farmer-Markus/Distro-Customizer
 
 if [ "$1" == "" ]
    then
