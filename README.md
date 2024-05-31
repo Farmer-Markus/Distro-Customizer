@@ -7,8 +7,9 @@ For example debian live [iso](https://cdimage.debian.org/debian-cd/current-live/
 Requirements: <br />
 `xorriso` <br />
 `squashfs-tools` <br />
+`wget` <br />
 
-     sudo apt-get install xorriso squashfs-tools
+     sudo apt-get install xorriso squashfs-tools wget
 
 Usage: <br />
 Step 1. Download this Repository. Run: <br /> 
