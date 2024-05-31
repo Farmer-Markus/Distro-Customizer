@@ -76,3 +76,4 @@ cp filesystem.squashfs iso/$loc/
 md5sum iso/.disk/info > iso/md5sum.txt
 sed -i 's|iso/|./|g' iso/md5sum.txt
 xorriso -as mkisofs -r -V "$name" -o $isoname.iso -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -eltorito-alt-boot -e boot/grub/efi.img -no-emul-boot -isohybrid-gpt-basdat -isohybrid-apm-hfsplus -isohybrid-mbr /usr/lib/ISOLINUX/isohdppx.bin iso/boot iso
+echo "Finished"
